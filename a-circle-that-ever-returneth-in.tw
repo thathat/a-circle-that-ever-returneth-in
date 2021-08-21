@@ -1,15 +1,19 @@
 ::StoryIFID[twee2]
 Twee2::build_config.story_ifid = 'b43545d1-0f16-4067-b910-aa5b3a862740'
 
+::StoryIncludes
+book.css.tw2
+
 ::StoryTitle
 A Circle That Ever Returneth In
 
 ::Start
+
 ### A Foreward from 2021
 
-You gave me a draft of this story an entire lifetime ago. A note on the pages says it was probably 2015--I was still married? I was in the Bay Area? Incredible, monstrous time! Did we talk about this at the H.P. Lovecraft film festival in Portland? It must have been. I remember getting busted for smoking at the hotel (hilarious, embarrassing), and hearing you give a reading (amazing, stupendous)!
+You gave me a draft of this story an entire lifetime ago. A note on the pages says it was probably 2015—I was still married? I was in the Bay Area? Incredible, monstrous time! Did we talk about this at the H.P. Lovecraft film festival in Portland? It must have been. I remember getting busted for smoking at the hotel (hilarious, embarrassing), and hearing you give a reading (amazing, stupendous)!
 
-Anyway, I haven't stopped thinking about this story since then. Every few months it'd creep back into memory and I'd go find the papers and read it again, smiling for a while. I'm pretty sure I told you I wanted to make it into a hypertext way back in 2015, that I'd use it to teach myself Twine, probably. Well, six years later I'm back in Minnesota, *un*married, and possess not only a knowledge of Twine's grammar, but various other programming languages, too! Now that the dust has settled from that intervening era, I finally have time (between rotten Webex meetings) where I put off gainfully employing those other programming languages, if I can help it. Generally, I am killing time before I can retire (another long year, but *just* one more) and start creating again; specifically, I want to make this little shrine to a precious thing and give it back to you. I love this story and all the memories attached to it--both of you and the shared nostalgia for those CYOA books.
+Anyway, I haven’t stopped thinking about this story since then. Every few months it’d creep back into memory and I’d go find the papers and read it again, smiling for a while. I’m pretty sure I told you I wanted to make it into a hypertext way back in 2015, that I’d use it to teach myself Twine, probably. Well, six years later I’m back in Minnesota, *un*married, and possess not only a knowledge of Twine’s grammar, but various other programming languages, too! Now that the dust has settled from that intervening era, I finally have time (between rotten Webex meetings) where I put off gainfully employing those other programming languages, if I can help it. Generally, I am killing time before I can retire (another long year, but *just* one more) and start creating again; specifically, I want to make this little shrine to a precious thing and give it back to you. I love this story and all the memories attached to it—both of you and the shared nostalgia for those CYOA books.
 
 Love,
 Rey
@@ -20,13 +24,13 @@ Rey
 ### A Circle That Ever Returneth In
 #### by Orrin Grey
 
-As you sit at your usual table in a dark corner of the Jeweled Remora in Lankhende, greatest metropolis in the West, you spy three unusual figures making their way into the establishment: a Sell-Sword, a Cutpurse, and a Doll Mage, by the look of them. They order their drinks and take a table near the hearth, though it is the Year of the Fly and the night outside is sticky and close. Perhaps they hope to disguise their voices with the crackling of the fire, for they are holding what appears to be an animated conversation, but one that their hunched postures and furtive glances show that they would rather not share with outsiders.
+<span class="dropcap">A</span>s you sit at your usual table in a dark corner of the Jeweled Remora in Lankhende, greatest metropolis in the West, you spy three unusual figures making their way into the establishment: a Sell-Sword, a Cutpurse, and a Doll Mage, by the look of them. They order their drinks and take a table near the hearth, though it is the Year of the Fly and the night outside is sticky and close. Perhaps they hope to disguise their voices with the crackling of the fire, for they are holding what appears to be an animated conversation, but one that their hunched postures and furtive glances show that they would rather not share with outsiders.
 
 You are not just any outsider, however, and Nathor of the Guild once said that your ears were keen enough to detect a flea breaking wind. You edge closer and cock one of those impressive ears toward their conversation. You are not disappointed.
 
-They speak of a treasure, a jewel. They call it something that sounds like the "Shining Trapezohedron," but you're unsure what kind of stone Trapezohedron is, so it's possible that you may have misheard. Regardless, it sounds quite rare and, as rare things are, quite valuable. It seems that each of the three possesses one portion of a riddle, map, or clue meant to lead them to the jewel, but there is some disagreement as to how these tidbits should be shared. Each one believes their portion to be the most pertinent and therefore of the most value, which in turn should, to their thinking, award them the greatest share of the bounty.
+They speak of a treasure, a jewel. They call it something that sounds like the “<span class="trapezohedron">Shining Trapezohedron</span>,” but you’re unsure what kind of stone Trapezohedron is, so it’s possible that you may have misheard. Regardless, it sounds quite rare and, as rare things are, quite valuable. It seems that each of the three possesses one portion of a riddle, map, or clue meant to lead them to the jewel, but there is some disagreement as to how these tidbits should be shared. Each one believes their portion to be the most pertinent and therefore of the most value, which in turn should, to their thinking, award them the greatest share of the bounty.
 
-Fortunately, before the conversation can turn violent enough to draw the attention of the entire tavern, the Sell-Sword dashes her drink to the floor, calls her compatriots some choice epithets, and all three of them angrily go their separate ways. Sensing a rare opportunity, you slipe out of the Jeweled Remora and into the smoky streets of Lankhende after them.
+Fortunately, before the conversation can turn violent enough to draw the attention of the entire tavern, the Sell-Sword dashes her drink to the floor, calls her compatriots some choice epithets, and all three of them angrily go their separate ways. Sensing a rare opportunity, you slip out of the Jeweled Remora and into the smoky streets of Lankhende after them.
 
 **If you follow the Sell-Sword, refer to [[passage I->I]].**
 **If you follow the Cutpurse, refer to [[passage II->II]].**
@@ -34,31 +38,31 @@ Fortunately, before the conversation can turn violent enough to draw the attenti
 
 ::I
 ### **I**
-The Sell-Sword has made her camp in the swampy mangrove forests that surround the walls of Lankhende. Though you keep a safe distance and stay in the shadows, still she must detect you, for she stiffens and places her hand on the sword at her hip as she calls you out. Knowing when you're fairly caught, you step out with your palms held toward her, to show that you're unarmed. "You don't look like much, and you came alone," she says. "You're either very brave, or very foolish."
+<span class="dropcap">T</span>he Sell-Sword has made her camp in the swampy mangrove forests that surround the walls of Lankhende. Though you keep a safe distance and stay in the shadows, still she must detect you, for she stiffens and places her hand on the sword at her hip as she calls you out. Knowing when you’re fairly caught, you step out with your palms held toward her, to show that you’re unarmed. “You don’t look like much, and you came alone,” she says. “You’re either very brave, or very foolish.”
 
-"Any reason I can't be a bit of both?" you ask.
+“Any reason I can’t be a bit of both?” you ask.
 
-After digesting that for a moment, she laughs a surprisingly ungarded laugh and tells you to start a fire while you explain why you're following her. Once a couple of lizard-bats are roasting over the embers, you tell her that you know she seeks the Shining Trapezohedron--saying a silent prayer to all the gods of Lankhende that you pronounce it correctly--and that you know of someone who can help her to find it, if she's interested in sharing the wealth.
+After digesting that for a moment, she laughs a surprisingly ungarded laugh and tells you to start a fire while you explain why you’re following her. Once a couple of lizard-bats are roasting over the embers, you tell her that you know she seeks the <span class="trapezohedron">Shining Trapezohedron</span>—saying a silent prayer to all the gods of Lankhende that you pronounce it correctly—and that you know of someone who can help her to find it, if she’s interested in sharing the wealth.
 
 She is, and she tells you her name is Vlana. You tell her your name, and lead her to the lair of the Seer with Many Faces, in a ruined temple high atop Mount Grond, the strange lone peak that stands to the south of Lankhende.
 
 At first glance, the Seer appears to be a statue of greenish stone that sits atop a raised dais, human in shape but with numerous arms radiating out from the trunk of its body, its head carved with faces on three sides, the one turned toward you as you enter contemplative, serene. Each of its many arms has an upturned palm, and in each hand rests some strange object: a golden carving of the sun, the skull of a bird, a trio of ordinary pebbles.
 
-Seeing that you haven't completely misled her, Vlana places before the Seer a scrap of faded leather or hide onto which someone has drawn--or more likely tattooed, for on closer inspection the scrap appears to be of flayed skin--a portion of a map. For a moment there is silence in the temple, and then there is a sound like the grinding of ancient machinery, a loud clank that is equal parts metal and stone, and the Seer moves, each arm switching positions slightly, and the head atop its trunk rotating so that a facade of terror is suddenly presented to you.
+Seeing that you haven’t completely misled her, Vlana places before the Seer a scrap of faded leather or hide onto which someone has drawn—or more likely tattooed, for on closer inspection the scrap appears to be of flayed skin—a portion of a map. For a moment there is silence in the temple, and then there is a sound like the grinding of ancient machinery, a loud clank that is equal parts metal and stone, and the Seer moves, each arm switching positions slightly, and the head atop its trunk rotating so that a facade of terror is suddenly presented to you.
 
-"I know what it is you would seek," the Seer says, its voice an echo coming from somewhere deep in a cave. "and on your life I warn you to turn back."
+“I know what it is you would seek,” the Seer says, its voice an echo coming from somewhere deep in a cave. “and on your life I warn you to turn back.”
 
-Neither you nor Vlana can be dissuaded, and the Seer seems to sense it, for there is another grinding clank, another repositioning of arms and head, and now the visage that faces you is a mask of wrath. "Then go, but fairly warned. Your path will take you through the city of ghouls, to the throne of the Yellow King. There you will find your prize, and though you will return to Lankhende time and time again, it will not be in your grasp."
+Neither you nor Vlana can be dissuaded, and the Seer seems to sense it, for there is another grinding clank, another repositioning of arms and head, and now the visage that faces you is a mask of wrath. “Then go, but fairly warned. Your path will take you through the city of ghouls, to the throne of the Yellow King. There you will find your prize, and though you will return to Lankhende time and time again, it will not be in your grasp.”
 
 The road to the Ghulende is a long one, and on the way Vlana teaches you the art of the sword. Her own blade is longer and of finer craftsmanship than the short one which hangs on your belt. She tells you that it is named Heartseeker, and that she forged it herself, as all warriors of her tribe must do before they can truly enter into adulthood.
 
-As you draw nearer to Ghulende, the land becomes dryer, the trees short and dead and twisted. Gravestones line the road on every side, canting off at odd angles. They are memorials from every era of the world's shistory, and every nation with which you're familiar--and many with which you aren't--and you wonder if they're drawn to Ghulende like iron to a lodestone.
+As you draw nearer to Ghulende, the land becomes dryer, the trees short and dead and twisted. Gravestones line the road on every side, canting off at odd angles. They are memorials from every era of the world’s shistory, and every nation with which you’re familiar—and many with which you aren’t—and you wonder if they’re drawn to Ghulende like iron to a lodestone.
 
 The city itself looks as if some great metropolis like Lankhende was dashed to pieces by a giant hand. Gone are the cycolopean walls, the towering buildings with their many windows for trysts and burglaries. Here the walls lie in rubble, the towers rise a few stories and then terminate abruptly. It is a ruin, and what better place than a ruin for ghouls to dwell.
 
-You have never seen a ghoul, though the old ladies in your village told you tales of them when you were a child. They were said to have skin and organs so translucent as to be virtually invisible, so that they appeared as living skeletons. They were also said to eat only human flesh, and that while they were generally content to feast upon the dead--for dead flesh was considered by ghouls the more succulent--they were more than happy to render living flesh dead, should the opportunity arise.
+You have never seen a ghoul, though the old ladies in your village told you tales of them when you were a child. They were said to have skin and organs so translucent as to be virtually invisible, so that they appeared as living skeletons. They were also said to eat only human flesh, and that while they were generally content to feast upon the dead—for dead flesh was considered by ghouls the more succulent—they were more than happy to render living flesh dead, should the opportunity arise.
 
-Before you have a chance to ask Vlana if *she* has ever seen a ghoul, you are suddenly presented, from every rubble-strewn alley and leaning doorway, vivid evidence of the truth of your elders' tales. At a glance, the ghouls that surround you, clutching in their bony fists odd weapons of blackened iron, would look exactly like human skeletons up and wandering about. The only thing to mark them out--besides their ambulation--is that instead of the white ivory shine of human bone, their skeletons are the green of tarnished copper.
+Before you have a chance to ask Vlana if *she* has ever seen a ghoul, you are suddenly presented, from every rubble-strewn alley and leaning doorway, vivid evidence of the truth of your elders’ tales. At a glance, the ghouls that surround you, clutching in their bony fists odd weapons of blackened iron, would look exactly like human skeletons up and wandering about. The only thing to mark them out—besides their ambulation—is that instead of the white ivory shine of human bone, their skeletons are the green of tarnished copper.
 
 One near the front of the pack barks something at you in what you assume must be Ghulese, but to you is simply nonsense. You glance at Vlana, but while she registers no more comprehension of the words than you do, she seems to understand the situation perfectly, for Heartseeker is already in her hand.
 
@@ -67,25 +71,25 @@ One near the front of the pack barks something at you in what you assume must be
 
 ::II
 ### **II**
-Though you believed that you knew Lankhende like the palm of your hand, no sooner are you out the door of the Jeweled Remora than you've lost the trail of the Cutpurse. You duck into a dark alley to collect your thoughts, when you feel the cold kiss of a dagger pressed to your neck.
+<span class="dropcap">T</span>hough you believed that you knew Lankhende like the palm of your hand, no sooner are you out the door of the Jeweled Remora than you’ve lost the trail of the Cutpurse. You duck into a dark alley to collect your thoughts, when you feel the cold kiss of a dagger pressed to your neck.
 
-"Give me one good reason why I shouldn't slice your throat," the Cutpurse says from behind you.
+“Give me one good reason why I shouldn’t slice your throat,” the Cutpurse says from behind you.
 
-You tell her enough to convince her that you know what she's looking for and can help her get it, and she agrees to take you with her. She says that her name is Samanda, and that she has in her possession a clue that tells her where to seek the Shining Trapezohedron. There's only one catch, in order to reach her destination she has to travel to the bottom of the Western Sea.
+You tell her enough to convince her that you know what she’s looking for and can help her get it, and she agrees to take you with her. She says that her name is Samanda, and that she has in her possession a clue that tells her where to seek the <span class="trapezohedron">Shining Trapezohedron</span>. There’s only one catch, in order to reach her destination she has to travel to the bottom of the Western Sea.
 
-You lead her to the strange hut of the Seer with Many Faces, built high in a tall tree in the swampy forests that surround Lankhende, accessible only by climbing a series of rickety platforms. As you both scale the trunk, you marvel at Samanda's agility, her sure-footedness never wavering once, even as you ascend the highest and most precarious ledges.
+You lead her to the strange hut of the Seer with Many Faces, built high in a tall tree in the swampy forests that surround Lankhende, accessible only by climbing a series of rickety platforms. As you both scale the trunk, you marvel at Samanda’s agility, her sure-footedness never wavering once, even as you ascend the highest and most precarious ledges.
 
 The Seer sits in the dark, where an owl, a bat, and a toad also crouch. Shrouded from head-to-foot in tattered robes that prevent you from seeing what sort of body it might possess, the only defining traits of the Seer are its iron claws and the masks which float in a circle around its hooded face. They pass before it in a slow dance, first one and then another, now the snarling face of a devil, now the leering expression of a lecherous old man, now the innocent visage of a child. When you tell the Seer what you seek, a voice speaks to you from the mouth of the owl.
 
-"You should return to Lankhende," the voice says. Then, another voice speaks from the lips of the toad, "No good will come of what you seek."
+“You should return to Lankhende,” the voice says. Then, another voice speaks from the lips of the toad, “No good will come of what you seek.”
 
-But neither you nor Samanda can be dissuaded, and the Seer seems to know this immediately, this time speaking from the mouth of the bat, "If you insist upon pursuing your quest, then you will need a way to survive the ocean floor. Take these two stones," and one of the iron claws reaches out, presenting two unremarkable-looking pebbles, "and hold them in your mouth. So long as you have them, you will have no need to breathe at all. But I warn you, lose them for even a moment, and *you* will be lost."
+But neither you nor Samanda can be dissuaded, and the Seer seems to know this immediately, this time speaking from the mouth of the bat, “If you insist upon pursuing your quest, then you will need a way to survive the ocean floor. Take these two stones,” and one of the iron claws reaches out, presenting two unremarkable-looking pebbles, “and hold them in your mouth. So long as you have them, you will have no need to breathe at all. But I warn you, lose them for even a moment, and *you* will be lost.”
 
 Before you step into the ocean, you each pop one of the pebbles into your mouth and try to hold your breath but realize immediately that, just as the Seer promised, you no longer feel the need to breathe at all. Your lungs no longer inflate and deflate, you no longer feel any tightness or pressure in your chest. You simply *are*.
 
-It also doesn't take you long to realize that you can't speak well with the stones in your mouth, so you go over the plan then and there. Samanda tells you that the Shining Trapezohedron is guarded by an entity known as the Yellow King, "Maybe a man, maybe a monster, possibly a god, but certainly something that we can rob."
+It also doesn’t take you long to realize that you can’t speak well with the stones in your mouth, so you go over the plan then and there. Samanda tells you that the <span class="trapezohedron">Shining Trapezohedron</span> is guarded by an entity known as the Yellow King, “Maybe a man, maybe a monster, possibly a god, but certainly something that we can rob.”
 
-As you step into the sea, the water feels cold and briny around you until you are completely submerged and then, suddenly, it is as if the water isn't there at all. The temperature turns normal, your movements no longer sluggish, and you silently thank the Seer with Many Faces for its intervention on your behalf, though past experience has taught you that such intervention seldom comes without a price.
+As you step into the sea, the water feels cold and briny around you until you are completely submerged and then, suddenly, it is as if the water isn’t there at all. The temperature turns normal, your movements no longer sluggish, and you silently thank the Seer with Many Faces for its intervention on your behalf, though past experience has taught you that such intervention seldom comes without a price.
 
 The bottom of the ocean is a remarkably beautiful place, more verdant and strange than any non-aquatic garden. You pass coral reefs as vibrant as any flower, tenanted by fish and eels and squid in every color of the rainbow. As the ocean floor drops away from the land, translucent serpents and fish that glow with their own inner light swim by you in the depths.
 
@@ -98,56 +102,56 @@ At the top you find yourselves in broad and strangely-angled avenues, now covere
 
 ::III
 ### **III**
-The Doll Mage spends the night in Lankhende before leaving the city alone the next morning, without contracting any mercenaries or bodyguards to assist in her journey.
+<span class="dropcap">T</span>he Doll Mage spends the night in Lankhende before leaving the city alone the next morning, without contracting any mercenaries or bodyguards to assist in her journey.
 
 You trail her for most of the next day, and it is only as night begins to fall that you suddenly feel the strange sensation, the invisible tugging that seems to come from within your muscles. Once, you had a wound stitched up by a barber after a particularly fierce battle, and though pain and booze had numbed your senses, you still had been able to feel the tugging as the thread was pulled tight. This feels like that, and you realize that you can no longer move. Then you *do* move, but not at all in the way that you had intended.
 
-Your motions jerky, you stand up, step out of your hiding place, and walk out to where the doll mage has made her camp. She sits, smiling up at you pleasantly. "I know you've been following me since the Jeweled Remora," she says, "but you seemed capable enough at it, and I thought you might prove useful."
+Your motions jerky, you stand up, step out of your hiding place, and walk out to where the doll mage has made her camp. She sits, smiling up at you pleasantly. “I know you’ve been following me since the Jeweled Remora,” she says, “but you seemed capable enough at it, and I thought you might prove useful.”
 
-You see that she is holding a doll, a tiny effigy of cloth and wax, and you notice with a start that it looks like you. "I'll give you leave to talk," she says, "so that you can tell me whethere you'd like to assist me by choice, or if we'll do this the other way."
+You see that she is holding a doll, a tiny effigy of cloth and wax, and you notice with a start that it looks like you. “I’ll give you leave to talk,” she says, “so that you can tell me whethere you’d like to assist me by choice, or if we’ll do this the other way.”
 
-She pulls out a black stitch from across the doll's mouth, and suddenly you find your voice. You tell her that you'll happily help her of your own volition, especially now that you know the alternative.
+She pulls out a black stitch from across the doll’s mouth, and suddenly you find your voice. You tell her that you’ll happily help her of your own volition, especially now that you know the alternative.
 
-She tells you that her name is Ivrian, and that she has the first part of a riddle that is supposed to help guide her to the Shining Trapezohedron: "A destination that few men seek." You take her to the cave of the Seer of Many Faces, the only person you know of--if person it can indeed be called--who may know the rest. The cave is long and damp, and at the back of it the Seer waits in a chair that seems to have grown up from the stone of the cave itself. The Seer appears to have been formed form shadow or tar. Only its face is visible, and that is a mirror, in which each supplicant sees only herself.
+She tells you that her name is Ivrian, and that she has the first part of a riddle that is supposed to help guide her to the <span class="trapezohedron">Shining Trapezohedron</span>: “A destination that few men seek.” You take her to the cave of the Seer of Many Faces, the only person you know of—if person it can indeed be called—who may know the rest. The cave is long and damp, and at the back of it the Seer waits in a chair that seems to have grown up from the stone of the cave itself. The Seer appears to have been formed form shadow or tar. Only its face is visible, and that is a mirror, in which each supplicant sees only herself.
 
-"A destination that few men seek," the Seer says, "but that all men find. That is your riddle, and the answer is death, for death is what awaits you if you persist in your folly--but only for the lucky among you, for the riddle is itself a lie, and in the lie is the answer you desire. For some unlucky few, death is a desintation that is never found, and they persist forever in something worse than death. If you go where those unfortunate souls languish, you will find your prize, but I warn you against it, for the pursuit will cost you dearly, and success more dearly still."
+“A destination that few men seek,” the Seer says, “but that all men find. That is your riddle, and the answer is death, for death is what awaits you if you persist in your folly—but only for the lucky among you, for the riddle is itself a lie, and in the lie is the answer you desire. For some unlucky few, death is a desintation that is never found, and they persist forever in something worse than death. If you go where those unfortunate souls languish, you will find your prize, but I warn you against it, for the pursuit will cost you dearly, and success more dearly still.”
 
-But neither of you can be dissuaded, and from the Seer's cryptic remarks Ivrian discerns where you must head: The Forbidden Plateau.
+But neither of you can be dissuaded, and from the Seer’s cryptic remarks Ivrian discerns where you must head: The Forbidden Plateau.
 
-The journey is long, and on the way she explains to you the nature of her magic, teaching you how to make the effigies of wax and cloth. "We are all just puppets, really," she tells you, "dancing on something's strings. Our passions, our desires, the burdens that we carry. A doll mage simply learns how to pluck those strings."
+The journey is long, and on the way she explains to you the nature of her magic, teaching you how to make the effigies of wax and cloth. “We are all just puppets, really,” she tells you, “dancing on something’s strings. Our passions, our desires, the burdens that we carry. A doll mage simply learns how to pluck those strings.”
 
 The Forbidden Plateau waits at the top of three thousand nine hundred and ninety-nine steps; a place that grows thick with fungus and mushrooms the like of which you have never seen. Huge beds of fungus, in purples and blues and greens, mushrooms that stretch up taller than trees, raining down glittering spores from the gills on their undersides. At first it is beautiful, until you notice the bodies, dozens upon dozens of corpses lying amidst the fungus, with fungus grown up around and through them, mushrooms sprouting from their eyes, their mouths. The bodies of all those who have visited the Plateau before you.
 
-Before you arrived, Ivrian warned you that you must not eat even a bite. "Once you eat of the fungus," she told you, "you do not die, but you also no longer live. The fungus becomes your body, and only your bones remain."
+Before you arrived, Ivrian warned you that you must not eat even a bite. “Once you eat of the fungus,” she told you, “you do not die, but you also no longer live. The fungus becomes your body, and only your bones remain.”
 
-As you pick your way carefully among the fruiting bodies, toward the far end of the Plateau where a distant temple waits, you find your stomach growling. The fungus looks so delicious, and in spite of the evidence of your eyes, you can't quite believe Ivrian's story. One bite, after all, could never do so much harm.
+As you pick your way carefully among the fruiting bodies, toward the far end of the Plateau where a distant temple waits, you find your stomach growling. The fungus looks so delicious, and in spite of the evidence of your eyes, you can’t quite believe Ivrian’s story. One bite, after all, could never do so much harm.
 
 **If you eat of the fungus, refer to [[passage VI->VI]].**
 **If you refrain, refer to [[passage IX->IX]].**
 
 ::IV
 ### **IV**
-Over the course of your travels, Vlana has impressed you with her skill with a blade, and you assume that your best chance of survival is at her side. You draw your own shorter sword and stand back-to-back as the ghouls surround you. The one who previously spoke barks something else in Ghulese, and Vlana shouts back at him a choice insult about his parentage. Then, in one quick motion, she steps forward and severs his bony head form his shoulders.
+<span class="dropcap">O</span>ver the course of your travels, Vlana has impressed you with her skill with a blade, and you assume that your best chance of survival is at her side. You draw your own shorter sword and stand back-to-back as the ghouls surround you. The one who previously spoke barks something else in Ghulese, and Vlana shouts back at him a choice insult about his parentage. Then, in one quick motion, she steps forward and severs his bony head form his shoulders.
 
-It is an odd sight, to watch the ghoul's head come off. Because the muscles and tendons that connect the bone are invisible, it is like watching the sword part air, and then the skull seems to simply decide that it no longer has any interest in the body, and rolls away. The blood of the ghouls must be as transparent as their flesh, for there is no visible spray. The body simply stumbles, and then falls to the ground.
+It is an odd sight, to watch the ghoul’s head come off. Because the muscles and tendons that connect the bone are invisible, it is like watching the sword part air, and then the skull seems to simply decide that it no longer has any interest in the body, and rolls away. The blood of the ghouls must be as transparent as their flesh, for there is no visible spray. The body simply stumbles, and then falls to the ground.
 
-"They can be killed!" Vlana shouts, and then the battle is joined.
+“They can be killed!” Vlana shouts, and then the battle is joined.
 
-You fight as swiftly and as fiercely as you know how, your sword arm improved by Vlana's schooling over the recent days. But you are nothing compared to her. She carves through the ghouls like a shark through minnows. Heartseeker flashes, and bony limbs and skulls leap free of their bondage and scatter across the ground.
+You fight as swiftly and as fiercely as you know how, your sword arm improved by Vlana’s schooling over the recent days. But you are nothing compared to her. She carves through the ghouls like a shark through minnows. Heartseeker flashes, and bony limbs and skulls leap free of their bondage and scatter across the ground.
 
-Unfortunately, you haven't the leisure to sit back and admire Vlana's handiwork. Two ghouls approach you at the same time, wielding wickedly hooked blades. You parry each one, but they force you back, until you feel a column against your backside. With nothing else left to do, you duck, and the ghoul's black blade bites into the column above your head while you stick your sword into the invisible guts of your other opponent, snatching up his weapon even as it slips from bony fingers. The metal tingles under your grasp, but still you use it to slice the throat of your other foe, and you feel a spray of cold blood strike your face, though you cannot see it.
+Unfortunately, you haven’t the leisure to sit back and admire Vlana’s handiwork. Two ghouls approach you at the same time, wielding wickedly hooked blades. You parry each one, but they force you back, until you feel a column against your backside. With nothing else left to do, you duck, and the ghoul’s black blade bites into the column above your head while you stick your sword into the invisible guts of your other opponent, snatching up his weapon even as it slips from bony fingers. The metal tingles under your grasp, but still you use it to slice the throat of your other foe, and you feel a spray of cold blood strike your face, though you cannot see it.
 
-Panting, you turn back to Vlana, and you see only a street strewn with the dead, though it is difficult indeed to tell a dead ghoul from a live one, except by the places where they've been hacked to pieces. Casting about, you spot Vlana, lying where she has fallen, pierced through and through with various ghoulish weapons. You walk over to her body, but she is already gone. There is nothing left for you but to heft Heartseeker and continue on through Ghulende to the throne of the Yellow King.
+Panting, you turn back to Vlana, and you see only a street strewn with the dead, though it is difficult indeed to tell a dead ghoul from a live one, except by the places where they’ve been hacked to pieces. Casting about, you spot Vlana, lying where she has fallen, pierced through and through with various ghoulish weapons. You walk over to her body, but she is already gone. There is nothing left for you but to heft Heartseeker and continue on through Ghulende to the throne of the Yellow King.
 
-The throne isn't difficult to find. It stands at the far end of the city, alone on a raised platform next to a vast black chasm which splits open the earth. You encounter no other ghoulish interference, and when you reach the throne, you have no doubt at all that you've arrived at the right place.
+The throne isn’t difficult to find. It stands at the far end of the city, alone on a raised platform next to a vast black chasm which splits open the earth. You encounter no other ghoulish interference, and when you reach the throne, you have no doubt at all that you’ve arrived at the right place.
 
-The Yellow King himself looks at home among the ghouls who make up his court. He appears as a plague corpse, wrapped head-to-foot in winding sheets, with a crown of candles upon his brow. In his left hand he holds a scepter, topped with an object that can only be the Shining Trapezohedron. The gem is nearly black in color, striated with bands of red, and as you gaze at it the world seems to tilt beneath you for a moment before you pull your eyes away.
+The Yellow King himself looks at home among the ghouls who make up his court. He appears as a plague corpse, wrapped head-to-foot in winding sheets, with a crown of candles upon his brow. In his left hand he holds a scepter, topped with an object that can only be the <span class="trapezohedron">Shining Trapezohedron</span>. The gem is nearly black in color, striated with bands of red, and as you gaze at it the world seems to tilt beneath you for a moment before you pull your eyes away.
 
 With Heartseeker in your hand, you feel braver than you otherwise might, and you advance on the Yellow King with your shoulders back, your head high. It is difficult to make out any expression on the corpse-gaunt face, but it seems to you that he smiles as you approach.
 
-He doesn't speak, but simply holds out the scepter, offering you the stone. You sense a trap, but you have little fear of this gaunt creature after those you have just faced, and Vlana's sword in your hand steels you. You reach out and take the stone from the scepter, and even as you do the Yellow King seems to wither further, his bones turning to dust, his flesh crumpling inward until only the winding sheet is left, and then even it blows away into the chasm.
+He doesn’t speak, but simply holds out the scepter, offering you the stone. You sense a trap, but you have little fear of this gaunt creature after those you have just faced, and Vlana’s sword in your hand steels you. You reach out and take the stone from the scepter, and even as you do the Yellow King seems to wither further, his bones turning to dust, his flesh crumpling inward until only the winding sheet is left, and then even it blows away into the chasm.
 
-You have attained your goal, and the Shining Trapezohedron is now in your grasp, but even as you touch it you feel seized by a compulsion at once to gaze into it and to cast it into the abyss.
+You have attained your goal, and the <span class="trapezohedron">Shining Trapezohedron</span> is now in your grasp, but even as you touch it you feel seized by a compulsion at once to gaze into it and to cast it into the abyss.
 
 **If you cast the Shining Trapezohedron away, refer to [[passage X->X]].**
 **If you gaze into the Shining Trapezohedron, refer to [[passage XI->XI]].**
@@ -155,50 +159,50 @@ You have attained your goal, and the Shining Trapezohedron is now in your grasp,
 ::V
 
 ### **V**
-You'll need Samanda to retrieve the stone, and as you interpose yourself between her and the crab, she nods to you and slips to the side, making her way down the boulevard and toward the center of the aquatic city. The claw that was meant for her you block with your sword, but there are other crabs rising up all around. Without thinking, you open your mouth to call out for her help, and the ocean rushes in. You snap your jaws closed, tasting the brine of the deep sea water.
+<span class="dropcap">Y</span>ou’ll need Samanda to retrieve the stone, and as you interpose yourself between her and the crab, she nods to you and slips to the side, making her way down the boulevard and toward the center of the aquatic city. The claw that was meant for her you block with your sword, but there are other crabs rising up all around. Without thinking, you open your mouth to call out for her help, and the ocean rushes in. You snap your jaws closed, tasting the brine of the deep sea water.
 
-At the other end of the street, Samanda's ankle is caught in the grip of a gigantic crab. Desperately, you bat at the claws that surround you with your blade, but they are too many. As you fight for your life, you see the magic pebble slip out of Samanda's mouth and drift away through the water, you see her body go limp as she floats instead of, the water once more granted its power over her.
+At the other end of the street, Samanda’s ankle is caught in the grip of a gigantic crab. Desperately, you bat at the claws that surround you with your blade, but they are too many. As you fight for your life, you see the magic pebble slip out of Samanda’s mouth and drift away through the water, you see her body go limp as she floats instead of, the water once more granted its power over her.
 
-As the crabs close around you, you wonder if drowning would perhaps be a more pleasant end than the one that you face, but unfortunately for you, you aren't given the choice.
+As the crabs close around you, you wonder if drowning would perhaps be a more pleasant end than the one that you face, but unfortunately for you, you aren’t given the choice.
 
 **You have [[died->Begin]].**
 
 ::VI
 
 ### **VI**
-When Ivrian isn't looking, you break off a piece of the fungus and pop it into your mouth. The moment you do so, you wonder why you waited so long. It is the most exquisite flavor you have ever tasted.
+<span class="dropcap">W</span>hen Ivrian isn’t looking, you break off a piece of the fungus and pop it into your mouth. The moment you do so, you wonder why you waited so long. It is the most exquisite flavor you have ever tasted.
 
-By the time Ivrian realizes what you've done and comes to stop you, you hardly notice that she is even there. You try to explain to her, around mouthfuls of fungus, that you have never before known happiness. You hold the fungus out to her, and she strikes it away, and you're only distantly surprised to see part of your hand break off with it. Ivrian is surprised though, or disgusted, or maybe terrified. You find it hard to tell what her expressions mean anymore, but she flees. Still, you are untroubled. You know that she won't get far. You are the Plateau now, the fungal beds that spread across its entire length and breadth, and those like you won't ever let her reach the Yellow King.
+By the time Ivrian realizes what you’ve done and comes to stop you, you hardly notice that she is even there. You try to explain to her, around mouthfuls of fungus, that you have never before known happiness. You hold the fungus out to her, and she strikes it away, and you’re only distantly surprised to see part of your hand break off with it. Ivrian is surprised though, or disgusted, or maybe terrified. You find it hard to tell what her expressions mean anymore, but she flees. Still, you are untroubled. You know that she won’t get far. You are the Plateau now, the fungal beds that spread across its entire length and breadth, and those like you won’t ever let her reach the Yellow King.
 
 You lie back in contentment, as you feel the hyphae begin to grow through you. It will be a long time now before the pain begins, and longer still before it ever stops.
 
-**You haven't died, but you'll soon wish that you [[had->Begin]].**
+**You haven’t died, but you’ll soon wish that you [[had->Begin]].**
 
 ::VII
 
 ### **VII**
-Deciding that discretion is the better part of valor, you hope that you can make your way to the throne of the Yellow King while the ghouls are busy digesting Vlana. As she rushes into battle, you turn and dart between two verdigris-colored skeletons and into a dark alleyway.
+<span class="dropcap">D</span>eciding that discretion is the better part of valor, you hope that you can make your way to the throne of the Yellow King while the ghouls are busy digesting Vlana. As she rushes into battle, you turn and dart between two verdigris-colored skeletons and into a dark alleyway.
 
-The alley you have chosen for your escape leans perilously, and once you're inside it you find that it is plagued with sudden switchbacks, so that in no time at all you've lost your way. The fog causes the sounds of clashing steel to echo and reecho, sounding at every moment like they are just around the next bend, or over the next wall.
+The alley you have chosen for your escape leans perilously, and once you’re inside it you find that it is plagued with sudden switchbacks, so that in no time at all you’ve lost your way. The fog causes the sounds of clashing steel to echo and reecho, sounding at every moment like they are just around the next bend, or over the next wall.
 
-As the sounds of conflict fade, you take a few tentative steps forward, and peer out from a ruined archway. Before you, the fog discloses a grisly scene. Several ghouls lie strewn about the street, looking no different in death than they did in life, but the vast majority of the throng are gathered in the center of the road, tearing pieces from Vlana's fallen body. Apparently, your flight has taken you in a circle and returned you back again to the place from whence you departed.
+As the sounds of conflict fade, you take a few tentative steps forward, and peer out from a ruined archway. Before you, the fog discloses a grisly scene. Several ghouls lie strewn about the street, looking no different in death than they did in life, but the vast majority of the throng are gathered in the center of the road, tearing pieces from Vlana’s fallen body. Apparently, your flight has taken you in a circle and returned you back again to the place from whence you departed.
 
-Heartseeker has fallen from Vlana's grasp and lies outside the ring of feeding ghouls, and you step forward to lift it, but even as you do you feel a clammy hand fasten around your wrist, and the ghouls who were waiting on either side of the archway are suddenly upon you, pressing you to the ground, their cold teeth sinking into your warm flesh.
+Heartseeker has fallen from Vlana’s grasp and lies outside the ring of feeding ghouls, and you step forward to lift it, but even as you do you feel a clammy hand fasten around your wrist, and the ghouls who were waiting on either side of the archway are suddenly upon you, pressing you to the ground, their cold teeth sinking into your warm flesh.
 
 **You have [[died->Begin]].**
 
 ::VIII
 
 ### **VIII**
-As more and more of the enormous crabs rise from the city streets, you realize that you didn't sign on for this. You'd apologize to Samanda if you could, but your mouth is full of magic rock. Even as you dart past her, the claw of the enormous crab fastens around her waist, and the pebble is squeezed from her mouth. You take comfort in the knowledge that she'll probably drown before the crabs can tear her apart.
+<span class="dropcap">A</span>s more and more of the enormous crabs rise from the city streets, you realize that you didn’t sign on for this. You’d apologize to Samanda if you could, but your mouth is full of magic rock. Even as you dart past her, the claw of the enormous crab fastens around her waist, and the pebble is squeezed from her mouth. You take comfort in the knowledge that she’ll probably drown before the crabs can tear her apart.
 
-The crabs are surprisingly quick for such huge beasts, and several times you have to deflect snapping claws with the blade of your sword. At the end of the lane, a creature so massive that it makes its brethren look regular-sized rises up before you, the entire end of the street yawning upward into a gargantuan blue carapace. Your blade licks out and slices off a wavering eye-stalk, and then you're stepping atop the monster even as it levers itself upward, and using its height to boost you onto the avenue above.
+The crabs are surprisingly quick for such huge beasts, and several times you have to deflect snapping claws with the blade of your sword. At the end of the lane, a creature so massive that it makes its brethren look regular-sized rises up before you, the entire end of the street yawning upward into a gargantuan blue carapace. Your blade licks out and slices off a wavering eye-stalk, and then you’re stepping atop the monster even as it levers itself upward, and using its height to boost you onto the avenue above.
 
 You find yourself in a broad thoroughfare lined with cyclopean pillars that must have once reached to the heavens, if this city ever existed above the waves. At its far end, you see the gates of some temple or fane. As you pass through, you discover that the interior is not an interior at all, but that some ancient cataclysm has rent the building, destroying the roof and bringing down most of the walls, so that the temple is now open to the sea and to a massive chasm that splits the sea bed behind it. Here you find the throne of the Yellow King, and the King himself asleep upon it. Samanda was right when she hypothesized that the King might not be a man. What lies upon the throne is an enormous worm, fat as a maggot, its yellow flesh the color of infection.
 
-Next to the throne is a heap of gold and jewels, and atop the heap the treasure that you seek, what can only be the Shining Trapezohedron. Black and shot through with red, it seems to call out to you, and you slip noiselessly across the temple floor toward your prize. You had believed that you might need Samanda's skills to steal the stone, but it seems now that you may be stealthy enough after all, and you reach the pile of treasure without the King so much as stirring.
+Next to the throne is a heap of gold and jewels, and atop the heap the treasure that you seek, what can only be the <span class="trapezohedron">Shining Trapezohedron</span>. Black and shot through with red, it seems to call out to you, and you slip noiselessly across the temple floor toward your prize. You had believed that you might need Samanda’s skills to steal the stone, but it seems now that you may be stealthy enough after all, and you reach the pile of treasure without the King so much as stirring.
 
-You reach out one shaking hand, close your fist around the Trapezohedron, and as you do so, you hear a sound behind you, a sound out of place in the soundless depths of the ocean. You turn, and you see that the worm that is the Yellow King terminates in a human face, and that face is directing its mocking laughter at you, and you realize that, while you've gotten what you came for, you've also fallen into a trap.
+You reach out one shaking hand, close your fist around the Trapezohedron, and as you do so, you hear a sound behind you, a sound out of place in the soundless depths of the ocean. You turn, and you see that the worm that is the Yellow King terminates in a human face, and that face is directing its mocking laughter at you, and you realize that, while you’ve gotten what you came for, you’ve also fallen into a trap.
 
 **If you cast the Shining Trapezohedron away, refer to [[passage X->X]].**
 **If you gaze into the Shining Trapezohedron, refer to [[passage XI->XI]].**
@@ -206,19 +210,19 @@ You reach out one shaking hand, close your fist around the Trapezohedron, and as
 ::IX
 
 ### **IX**
-You fight the unnatural pull of the mushrooms that surround you, and follow Ivrian through the strange fields of the Plateau. As you near the temple steps, however, you notice that the fungus seems to have shifted slightly. Each time you look away, the topography has changed when you look back. Before you can point the phenomenon out to Ivrian, one of the corpses tears itself free from its fungal bed and lunges at you. Your sword comes up and slices off an arm. The sensation is oddly repellent, not the clean bite of a normal blade cutting normal flesh.
+<span class="dropcap">Y</span>ou fight the unnatural pull of the mushrooms that surround you, and follow Ivrian through the strange fields of the Plateau. As you near the temple steps, however, you notice that the fungus seems to have shifted slightly. Each time you look away, the topography has changed when you look back. Before you can point the phenomenon out to Ivrian, one of the corpses tears itself free from its fungal bed and lunges at you. Your sword comes up and slices off an arm. The sensation is oddly repellent, not the clean bite of a normal blade cutting normal flesh.
 
 All around you, the bodies within the fungus are rising up. Mushrooms in vivid blues and greens and purples burst from their bodies as they clamber, shamble, or even crawl toward you, and you know, even as you try to fend them off, that the fungus is what controls them, what makes them move, and that gives you an idea.
 
-"Ivrian," you shout, "their bones are still intact!"
+“Ivrian,” you shout, “their bones are still intact!”
 
 And she, to her credit, sees what you mean immediately, plucks a fingerbone from the putrefying mass of the arm you just hacked off, and from it begins fashioning a hasty doll. In moments, one of the fungus people is fighting at your side, and shortly thereafter, another has joined it, and then another.
 
-The creatures are not formidable in combat, too slow and too soft, but they cannot be slain as any living foe can, by cutting off a head or stopping a heart. No matter what you do to them they keep coming, and even with your reinforcements, you know that you won't last long. You turn to Ivrian, to tell her that one of you has to make it to the temple, just in time to see two of the creatures hauling her down. You slash at them, reducing them to quivering masses, but by the time you reach her it's too late, she has already swallowed the funugs they jammed in her mouth.
+The creatures are not formidable in combat, too slow and too soft, but they cannot be slain as any living foe can, by cutting off a head or stopping a heart. No matter what you do to them they keep coming, and even with your reinforcements, you know that you won’t last long. You turn to Ivrian, to tell her that one of you has to make it to the temple, just in time to see two of the creatures hauling her down. You slash at them, reducing them to quivering masses, but by the time you reach her it’s too late, she has already swallowed the funugs they jammed in her mouth.
 
-She presses half-made dolls into your hands and tells you to go to the temple, that she'll hold them off as long as she can. You consider trying to argue, but already her skin is taking on an unhealthy grayish tinge, and so you take the dolls and run.
+She presses half-made dolls into your hands and tells you to go to the temple, that she’ll hold them off as long as she can. You consider trying to argue, but already her skin is taking on an unhealthy grayish tinge, and so you take the dolls and run.
 
-The temple steps flash under your feet, and you don't stop until you are beyond its golden doors, and those doors shut firmly behind you. You see that the temple is only a facade, that within it is open to the elements, and the back "wall" of the chamber not a wall but a cliff that drops off into a gorge that seems to go down forever. Between you and the cliff there sits a golden throne, and upon it reclines the fattest man you have ever seen. His flesh hangs over itself in massive folds, like an avalanche of a person, a mountain of flesh that cascades ever down and down. Covering his face is a mask of yellow silk, and to each side of him stand guardians in golden masks, holding curved golden swords. In one of his massive hands, he holds what must be the Shining Trapezohedron, a black stone striated with red that seems to pull you toward it.
+The temple steps flash under your feet, and you don’t stop until you are beyond its golden doors, and those doors shut firmly behind you. You see that the temple is only a facade, that within it is open to the elements, and the back “wall” of the chamber not a wall but a cliff that drops off into a gorge that seems to go down forever. Between you and the cliff there sits a golden throne, and upon it reclines the fattest man you have ever seen. His flesh hangs over itself in massive folds, like an avalanche of a person, a mountain of flesh that cascades ever down and down. Covering his face is a mask of yellow silk, and to each side of him stand guardians in golden masks, holding curved golden swords. In one of his massive hands, he holds what must be the <span class="trapezohedron">Shining Trapezohedron</span>, a black stone striated with red that seems to pull you toward it.
 
 The Yellow King holds out the stone, as though inviting you to come take it, but as you start to move foward so too do his twin guards. You glance down at the sword in your hand, and then at the dolls that Ivrian gave you. Hastily you begin shaping one of the dolls, pressing into its face a piece of gold prized from the door at your back. You hear the footsteps of the guards coming closer, and you use the doll as Ivrian taught you. When you look up, one of the guards has turned stiffly, and cut the other down.
 
@@ -230,7 +234,7 @@ You smile in triumph as the guard whose strings you now hold turns and advances 
 ::X
 
 ### **X**
-Realizing that the Shining Trapezohedron is something more than a jewel, some cursed and terrible artifact that can bring you only doom, you raise your arm to cast it into the chasm behind the Yellow King's throne. At least, you intend to. But while the signal races from your mind, it never seems to reach your hand, which stays where it is, gripping the stone tightly.
+<span class="dropcap">R</span>ealizing that the <span class="trapezohedron">Shining Trapezohedron</span> is something more than a jewel, some cursed and terrible artifact that can bring you only doom, you raise your arm to cast it into the chasm behind the Yellow King's throne. At least, you intend to. But while the signal races from your mind, it never seems to reach your hand, which stays where it is, gripping the stone tightly.
 
 You understand that you are no longer in control of yourself. That you are a puppet, being pulled by strings which you cannot see or imagine. Though your will screams against it, you [[turn your gaze toward the stone in your hand->XI]].
 
@@ -238,6 +242,6 @@ You understand that you are no longer in control of yourself. That you are a pup
 ::XI
 
 ### **XI**
-You cannot resist the pull of the stone, and inside the Shining Trapezohedron you see at first only swirling clouds of red and black. Then the clouds part and you are looking into the past and the future. You see yourself entering the Jeweled Remora in Lankhende, taking a table near the hearth in spite of the heat and closeness of the night. There you meet with your companions, and you speak of your quest for the jewel. You keep your voices lowered, but a stranger watches you avidly from the shadows.
+<span class="dropcap">Y</span>ou cannot resist the pull of the stone, and inside the <span class="trapezohedron">Shining Trapezohedron</span> you see at first only swirling clouds of red and black. Then the clouds part and you are looking into the past and the future. You see yourself entering the Jeweled Remora in Lankhende, taking a table near the hearth in spite of the heat and closeness of the night. There you meet with your companions, and you speak of your quest for the jewel. You keep your voices lowered, but a stranger watches you avidly from the shadows.
 
-From the depths of the stone, you hear a voice at once strange and familiar, reciting a rhyme that stirs dim memories that seem to come from another life: "...and much of Madness, and more of Sin, and Horror the soul of the [[plot->Begin]]."
+From the depths of the stone, you hear a voice at once strange and familiar, reciting a rhyme that stirs dim memories that seem to come from another life: "…and much of Madness, and more of Sin, and Horror the soul of the [[plot->Begin]].”

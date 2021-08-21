@@ -1,0 +1,60 @@
+::BookCSS [stylesheet]
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
+
+body {
+  background-image: url("images/paperbg.png");
+  background-repeat: repeat;
+}
+
+em {
+  font-family: 'IM Fell English', serif;
+  color: #3d282b;
+}
+tw-passage {
+  font-family: 'IM Fell English', serif;
+  color: #3d282b;
+}
+
+h3 {
+  font-family: 'IM Fell DW Pica SC', serif;
+  color: #3d282b;
+}
+
+tw-link {
+  color: #98232d;
+}
+
+tw-link.visited {
+  color: #98232d;
+}
+
+tw-link.visited:hover {
+  color: #601d23;
+}
+
+tw-link:hover {
+  color: #601d23;
+}
+
+.trapezohedron {
+  background: -webkit-linear-gradient(#b51725, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dropcap {
+  float: left;
+  line-height: .75;
+  font-size: 400%;
+  margin: 8px 8px 0 0;
+  padding: 12px 5px 5px 5px;
+  color: #98232d;
+  border: 4px double #601d23;
+
+  background: -webkit-radial-gradient(#98232d, #3d282b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
