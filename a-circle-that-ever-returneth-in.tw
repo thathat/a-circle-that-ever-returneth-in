@@ -8,19 +8,6 @@ book.css.tw2
 A Circle That Ever Returneth In
 
 ::Start
-
-### A Foreward from 2021
-
-You gave me a draft of this story an entire lifetime ago. A note on the pages says it was probably 2015—I was still married? I was in the Bay Area? Incredible, monstrous time! Did we talk about this at the H.P. Lovecraft film festival in Portland? It must have been. I remember getting busted for smoking at the hotel (hilarious, embarrassing), and hearing you give a reading (amazing, stupendous)!
-
-Anyway, I haven’t stopped thinking about this story since then. Every few months it’d creep back into memory and I’d go find the papers and read it again, smiling for a while. I’m pretty sure I told you I wanted to make it into a hypertext way back in 2015, that I’d use it to teach myself Twine, probably. Well, six years later I’m back in Minnesota, *un*married, and possess not only a knowledge of Twine’s grammar, but various other programming languages, too! Now that the dust has settled from that intervening era, I finally have time (between rotten Webex meetings) where I put off gainfully employing those other programming languages, if I can help it. Generally, I am killing time before I can retire (another long year, but *just* one more) and start creating again; specifically, I want to make this little shrine to a precious thing and give it back to you. I love this story and all the memories attached to it—both of you and the shared nostalgia for those CYOA books.
-
-Love,
-Rey
-
-#### <center>[[Open the book->Begin]]</center>
-
-::Begin
 ### A Circle That Ever Returneth In
 #### by Orrin Grey
 
@@ -165,7 +152,7 @@ At the other end of the street, Samanda’s ankle is caught in the grip of a gig
 
 As the crabs close around you, you wonder if drowning would perhaps be a more pleasant end than the one that you face, but unfortunately for you, you aren’t given the choice.
 
-**You have [[died->Begin]].**
+**You have [[died->Start]].**
 
 ::VI
 
@@ -176,7 +163,7 @@ By the time Ivrian realizes what you’ve done and comes to stop you, you hardly
 
 You lie back in contentment, as you feel the hyphae begin to grow through you. It will be a long time now before the pain begins, and longer still before it ever stops.
 
-**You haven’t died, but you’ll soon wish that you [[had->Begin]].**
+**You haven’t died, but you’ll soon wish that you [[had->Start]].**
 
 ::VII
 
@@ -189,7 +176,7 @@ As the sounds of conflict fade, you take a few tentative steps forward, and peer
 
 Heartseeker has fallen from Vlana’s grasp and lies outside the ring of feeding ghouls, and you step forward to lift it, but even as you do you feel a clammy hand fasten around your wrist, and the ghouls who were waiting on either side of the archway are suddenly upon you, pressing you to the ground, their cold teeth sinking into your warm flesh.
 
-**You have [[died->Begin]].**
+**You have [[died->Start]].**
 
 ::VIII
 
@@ -244,4 +231,4 @@ You understand that you are no longer in control of yourself. That you are a pup
 ### **XI**
 <span class="dropcap">Y</span>ou cannot resist the pull of the stone, and inside the <span class="trapezohedron">Shining Trapezohedron</span> you see at first only swirling clouds of red and black. Then the clouds part and you are looking into the past and the future. You see yourself entering the Jeweled Remora in Lankhende, taking a table near the hearth in spite of the heat and closeness of the night. There you meet with your companions, and you speak of your quest for the jewel. You keep your voices lowered, but a stranger watches you avidly from the shadows.
 
-From the depths of the stone, you hear a voice at once strange and familiar, reciting a rhyme that stirs dim memories that seem to come from another life: “…and much of Madness, and more of Sin, and Horror the soul of the [[plot->Begin]].”
+From the depths of the stone, you hear a voice at once strange and familiar, reciting a rhyme that stirs dim memories that seem to come from another life: “…and much of Madness, and more of Sin, and Horror the soul of the [[plot->Start]].”
